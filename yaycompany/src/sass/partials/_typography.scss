@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  color: getColour(primary);
+  padding-top: 40px;
+  padding-bottom: 29px;
+}
+
+.navbar-brand {
+  color: getColour(primary) !important;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+.nav-link {
+  font-family: "Lato", sans-serif;
+}
+
+p,
+label,
+.input-group-text {
+  color: getColour(font);
+}

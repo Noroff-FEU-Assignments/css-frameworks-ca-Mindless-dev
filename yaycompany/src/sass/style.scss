@@ -1,0 +1,17 @@
+@import "./partials/variables";
+$theme-colors: (
+  "primary": getColour(primary),
+);
+
+$font-family-base: "font-family: 'Lato', sans-serif;";
+/*font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+@import "./partials/base";
+@import "./partials/typography";
+@import "./partials/header";
+@import "./partials/home";
+@import "./partials/contact";
+@import "./partials/news";
+@import "./partials/footer";
+@import "~bootstrap/scss/bootstrap";

@@ -1,0 +1,167 @@
+a.carousel-control-prev,
+a.carousel-control-next {
+  display: none;
+}
+
+ol.carousel-indicators {
+  li {
+    background-color: white;
+    height: 30px;
+    opacity: 1;
+    box-shadow: black 0px 3px 6px;
+    border-bottom: 0;
+    border-top: 0;
+  }
+
+  li.active {
+    background-color: getColour(primary);
+  }
+}
+.carousel-inner {
+  max-height: 462px;
+}
+
+.intro-text {
+  max-width: 1140px;
+  margin: 0 auto;
+
+  h1 {
+    margin: 10px 0px;
+  }
+}
+
+.slide1 {
+  background-image: url("../../components/home/Carousel\ images/carousel-1.jpg");
+}
+
+.slide2 {
+  background-image: url("../../components/home/Carousel\ images/carousel-2.jpg");
+}
+
+.slide3 {
+  background-image: url("../../components/home/Carousel\ images/carousel-3.jpg");
+}
+
+.slide1,
+.slide2,
+.slide3 {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 287px;
+
+  @media (min-width: 600px) {
+    min-height: 462px;
+  }
+}
+
+.content-image1,
+.mobile-content-image1 {
+  background-image: url("../../components/home/Tab\ images/tab-1.jpg");
+}
+
+.content-image2,
+.mobile-content-image2 {
+  background-image: url("../../components/home/Tab\ images/tab-2.jpg");
+}
+
+.content-image3,
+.mobile-content-image3 {
+  background-image: url("../../components/home/Tab\ images/tab-3.jpg");
+}
+
+.content-image1,
+.content-image2,
+.content-image3 {
+  height: 149px;
+  width: 238px;
+  background-size: cover;
+}
+
+.tab-content {
+  background: white;
+  padding: 1em;
+  min-height: 280px;
+  border-radius: 8px;
+  margin-top: -8px;
+  margin-bottom: 248px;
+  z-index: 1;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  background-color: white !important;
+  border: none;
+  height: 50px;
+  border-radius: 8px 8px 0px 0px;
+  margin-bottom: -1px;
+}
+
+.tab-home {
+  box-shadow: #0000000f 0px 16px 22px;
+  border: none;
+}
+
+.tab-content-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-content-wrapper > div > p,
+.tab-cta {
+  max-width: 790px;
+  margin: auto;
+}
+
+.tab-cta {
+  margin-top: 40px;
+
+  a {
+    font-size: 16px;
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  svg,
+  a {
+    color: black;
+  }
+}
+
+.tab-content-wrapper {
+  margin-top: 20px;
+}
+
+.mobile-content-image1,
+.mobile-content-image2,
+.mobile-content-image3 {
+  height: 175px;
+  width: 280px;
+  margin: auto;
+}
+
+.accordion > .card > .collapse.show {
+  border-top: 1px solid getColour(primary);
+}
+
+.accordion-cta {
+  display: flex;
+  justify-content: center;
+  a,
+  svg {
+    font-size: 1.2em;
+    color: black;
+  }
+}
+
+.accordion-cta > svg {
+  margin-top: 5px;
+}
+
+.accordion {
+  margin: 20px auto;
+  padding-bottom: 4em;
+  box-shadow: #0000000f 0px 16px 22px;
+}

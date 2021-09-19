@@ -1,0 +1,47 @@
+.information-wrapper {
+  margin-top: 37px;
+  @media (min-width: 992px) {
+    margin-top: 8.4em;
+  }
+}
+
+.information {
+  display: flex;
+  margin: 40px 10px;
+  svg {
+    font-size: 2.6em;
+  }
+}
+
+.contact-form {
+  box-shadow: #0000000b 0px 6px 6px;
+  max-width: 550px;
+  min-height: 760px;
+  padding: 1em;
+  margin-bottom: 11.5em;
+
+  .form-control {
+    width: 100%;
+    height: 56px;
+  }
+
+  textarea.form-control {
+    height: 224px;
+  }
+
+  button.btn.btn-primary {
+    margin: auto;
+    height: 58px;
+    width: 100%;
+    background-color: grey;
+    border: none;
+  }
+}
+
+.contact-info {
+  justify-content: center center;
+}
+
+.form-check-input {
+  background-color: getColour(primary) !important;
+}

@@ -1,0 +1,36 @@
+.nav-link {
+  color: black !important;
+}
+
+.nav-link.active {
+  background-color: white;
+}
+
+form > button.btn {
+  margin-left: -1em;
+}
+
+.navbar-nav {
+  padding: 1em;
+}
+
+button.navbar-toggler {
+  border: none;
+  icon {
+    color: black;
+  }
+}
+
+form {
+  input.form-control {
+    width: 202px;
+
+    @media (min-width: 993px) {
+      width: 202px;
+    }
+  }
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #efefef !important;
+}
